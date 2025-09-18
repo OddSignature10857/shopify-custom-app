@@ -22,11 +22,10 @@ export default function App() {
         <Link to="/app" rel="home">
           Home
         </Link>
-       <Link to="/app/additional">Additional page</Link> 
-        <Link to="/admin">Admin Dashboard</Link>
-        <Link to="/saloon">Saloon Owner</Link>
-        <Link to="/stylist">Licensed Stylist</Link>
-        
+        <Link to="/app/admin">Admin</Link>
+        <Link to="/app/permission">Permission</Link>
+        <Link to="/app/saloon">Saloon Owner</Link>
+        <Link to="/app/stylist">Licensed Stylist</Link>
 
         
       </NavMenu>
